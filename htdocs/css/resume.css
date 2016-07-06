@@ -1,0 +1,74 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.resume-container {
+}
+.resume-section {
+}
+.resume-section h3 {
+    margin: 0 4px 22px 0;
+    border-bottom: 2px solid #ddf;
+}
+
+#resume-name {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#resume-header {
+    padding: 0 0 22px 0;
+}
+#resume-name, #resume-address, #resume-contact {
+    margin: 0;
+    width: 100%;
+    float: left;
+}
+#resume-contact, #resume-address {
+    width: 50%;
+}
+#resume-contact {
+    float: right;
+    text-align: right;
+}
+
+.resume-tenure {
+    margin: 0 0 22px 0;
+}
+
+.resume-tenure p, .resume-tenure ul {
+    margin-bottom: 16px;
+    overflow: auto;
+}
+
+.resume-tenure-info li {
+    display: block;
+    list-style-type: none;
+    list-style-position: outside;
+    float: left;
+    margin-left: 0px;
+}
+
+.resume-tenure-info li:first-child {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.resume-tenure-info li:last-child {
+    font-style: italic;
+    float: right;
+    top: 0px;
+}
+
+a {
+    color:#2D63B5;
+    text-decoration:none;
+    font-weight:bold;
+}
+a:hover {
+    color:#4D83D5;
+}
+
